@@ -1,0 +1,92 @@
+body {
+  background-color: wheat;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.main-box {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.4rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+button {
+  color: wheat;
+  width: 14rem;
+  height: 4rem;
+  margin: auto;
+  font-size: 1.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+  border-radius: 1.6rem;
+  margin: 0.5rem;
+  background-color: beige;
+  border: 1px solid transparent;
+  font-family: "Nunito", sans-serif;
+  -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
+.elements-container {
+  display: block;
+  width: 100%;
+  /* margin: auto 2rem; */
+}
+
+.btn-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.snippet-box {
+  /* display: none; */
+  position: absolute;
+  z-index: 50;
+  margin: 1rem;
+  color: rgba(58, 58, 58, 0.836);
+  font-size: 1.2rem;
+  top: 4rem;
+  right: auto;
+  left: 0;
+  /* margin: auto 2rem; */
+  min-width: 300px;
+  max-width: max-content;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.688);
+}
+
+@media (min-width: 870px) {
+  button {
+    width: 15rem;
+  }
+  .elements-container {
+    display: flex;
+    /* background-color: blue;  */
+    width: auto;
+  }
+}
